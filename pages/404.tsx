@@ -2,12 +2,13 @@ import type { NextPage } from 'next'
 
 import DefaultLayout from '../layouts/DefaultLayout';
 
-const Home: NextPage = () => {
+const NotFoundPage: NextPage = () => {
   return (
     <DefaultLayout>
-      <h1>Initial Commit!</h1>
+      <h1>Error 404</h1>
+      <p>Page not found.</p>
     </DefaultLayout>
   )
 }
 
-export default Home
+export default NotFoundPage
