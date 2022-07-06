@@ -1,5 +1,5 @@
 import PageNavigation from '../components/blocks/PageNavigation';
-import PageFooter from '../components/blocks/PageFooter.component';
+import PageFooter from '../components/blocks/PageFooter';
 
 type Props = {
   children: React.ReactNode;
